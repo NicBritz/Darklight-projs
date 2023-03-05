@@ -5,6 +5,14 @@ import { ProductImage } from "~/components/product-preview-card/ProductImage";
 import { Container } from "~/components/product-preview-card/Container";
 import { Button } from "~/components/product-preview-card/Button";
 import { Prices } from "~/components/product-preview-card/Prices";
+import type { MetaFunction } from "@remix-run/react/dist/routeModules";
+
+export const meta: MetaFunction = () => {
+  return {
+    title: "Product preview card",
+    description: "A responsive product card",
+  };
+};
 
 export default function ProductPreviewCard() {
   return (

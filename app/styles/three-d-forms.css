@@ -1,0 +1,20 @@
+#tdf-container {
+  perspective: 100rem;
+}
+
+#signup-form {
+  transform: rotateY(270deg) translateZ(25rem) translateX(-25rem);
+}
+
+#forms-wrapper {
+  transform-style: preserve-3d;
+  position: absolute;
+  top: calc(50% - 17.5rem);
+  left: calc(50% - 25rem);
+  transition: transform 0.5s, left 0.5s;
+}
+
+#forms-wrapper.change {
+  transform: rotateY(90deg);
+  left: calc(50% + 25rem);
+}

@@ -20,6 +20,16 @@ module.exports = {
           "url('/images/product-preview-card/image-product-desktop.jpg')",
         "ppc-product-mobile":
           "url('/images/product-preview-card/image-product-mobile.jpg')",
+        "tdf-background":
+          "linear-gradient(rgba(0,127,127,0.7), rgba(0,50,50,0.6)), url('/images/three-d-forms/background.jpeg')",
+      },
+      boxShadow: {
+        "tdf-form":
+          "1px 1px 1px rgba(100,255,255,1)  inset, -1px -1px 1px rgba(100,255,255,1) inset",
+      },
+      borderRadius: {
+        "tdf-signup": "100% 0.5rem 0.5rem 100%",
+        "tdf-signin": "0.5rem 100% 100% 0.5rem",
       },
     },
   },
